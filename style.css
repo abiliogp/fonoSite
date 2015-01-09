@@ -115,15 +115,6 @@ body {
 }
 
 
-@font-face {
-    font-family: 'open-sans-bold';
-	src: url('../fonts/open-sans/OpenSans-Bold.eot');
-    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
-		 url('../fonts/open-sans/OpenSans-Bold.ttf');
-    font-weight: normal;
-}
-
-
 #content {
 	width: 100%;
 	margin: 0;
