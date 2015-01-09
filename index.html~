@@ -1,0 +1,88 @@
+<html>
+	<html lang="pt-br">
+	<head>
+		<title>
+			.:Fonoaudióloga Tanise Cristaldo:.
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="robots" content="all,index,follow" />
+	<head>
+
+	<body>
+		
+		
+		
+		<div id="nav">
+			<div id="nav-wrapper">
+				<ul>
+					<li><a href="index.html">
+					<img src="icon/home.png" width="20" height="20"</img>	
+					</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Support</a></li>				
+				</ul>
+			</div>	
+		</div>
+
+		<div id="sidebar">
+			<div id="socialNetwork">
+			<a href="https://www.facebook.com/pages/Fono-Tanise-Cristaldo-Anhaia/393480357457935?fref=ts"> 	
+			<img src="icon/P1ELC2.png" width="30" height="30" alt="" align="right" </img>	
+			</a>
+			</div>
+		</div>
+
+		<div id="menubarLeft">
+			<div id="menubarLeft1">
+			<a href="child.html">	
+			<img src="icon/child.png"   width="15%" height="15%" alt=""  </img>
+			<h3>Crianças</h3>
+			</a>
+			</div>
+			
+			<div id="menubarLeft2">
+			<a href="#"> 	
+			<img src="icon/singer.png"  width="20%" height="20%" alt="" "  </img>	
+			<h3>Profissionais</h3>			
+			</a>
+			</div>
+		</div>
+		
+		<div id="menubarRight">
+			<div id="menubarRight1">
+			<a href="#"> 	
+			<img src="icon/prof.png"   width="20%" height="20%" alt=""    </img>	
+			<h3>Cantores</h3>			
+			</a>
+			</div>
+			
+			<div id="menubarRight2">
+			<a href="#"> 	
+			<img src="icon/old.png"  width="20%" height="20%" alt=""   "</img>	
+			<h3>Idosos</h3>			
+			</a>
+			</div>			
+			
+		</div>
+
+
+		<div id="container">
+			<div id="content">
+				<div id="layer1">	</div>
+
+				
+			</div>
+		</div>	
+
+
+
+
+
+	</body>
+
+
+
+
+</html>
