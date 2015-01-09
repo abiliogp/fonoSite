@@ -10,12 +10,11 @@ body {
 	margin: 0;
 	font-family: Helvetica;;
 	font-size: 16px;
-	background: url(pictures/texture.jpg) repeat;
 }
 
 
 #nav{
-	background-color: #6e8b3d;
+	background-color: #6eAF3c;
 	opacity: .95;
 	position: fixed;
 	bottom: 0;
@@ -47,7 +46,7 @@ body {
 #nav ul li a,visited{
 	display: block;
 	padding: 15px;
-	color: #CCC;
+	color: #FFF;
 	text-decoration: none;
 }
 
@@ -67,76 +66,71 @@ body {
 }
 
 
-#menubarLeft{
+#menubarLeft1{
+	position: relative;
+	margin-left: 30% ;	
+	width:25%;
+
+}
+
+#menubarLeft1 #menuLeft11{
+	position: relative;
 	
-	margin-left: 400;
-	position: fixed ;
-	bottom: 200px;		
+	
+}
+
+#menubarLeft2{
+	position: relative;
+	margin-left: 25%;
+	width:25%;
 
 }
 
-#menubar #menuLeft1{
-	height: 40%;
-	width: 40%;
-	position: absolute;;
-}
-
-
-
-#menubar #menuLeft2{
-	height: 40%;
-	width: 40%;
-	position: absolute;
-
-}
-
-
-#menubarRight{
-
-	margin-left:  900;
-	position: fixed ;
-	bottom: 200px;		
-
-}
-
-#menubar #menuRight1{
-	height: 50%;
-	width: 50%;
-	position: absolute;
-
+#menubarLeft2 #menuLeft21{
+	position: relative;
+	
 }
 
 
 
-#menubar #menuRight2{
-	height: 70%;
-	width: 70%;
-	position: absolute;
+#menubarRight1{
+	position: relative ;
+	margin-left: 70% ;	
+	width:25%;
+	
+}
+
+#menubarRight1 #menubarRight11{
+	position: relative;
 }
 
 
-#content {
-	width: 100%;
-	margin: 0;
-	padding: 0;
+#menubarRight2{
+	position: relative ;
+	margin-left: 65% ;	
+	width:25%;
+	
 }
 
-#content h1{
-	color: #FF0000;
-	text-align: center;
-	padding: 10px;
-}
-
-#content p{
-	color: #FF0;	
+#menubarRight2 #menubarRight21{
+	position: relative;
 }
 
 
-#layer1 {
+
+
+
+
+#layer1 {	
 	background: url(pictures/banner3.jpg) no-repeat fixed center top;
-	height: 100%;
-	width: 100%;
-	
+	height: 150px;
 }
 
+
+#layer2 {
+	background: url(pictures/lovedone/speechBalloons2.jpg) no-repeat center bottom ;
+	
+	height: 400px;
+	
+}
 
