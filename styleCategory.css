@@ -114,7 +114,7 @@ body {
 
 #layer1 {
 	margin-top: 50px;
-	background: url(pictures/lovedone/speechBalloons.jpg) repeat fixed center top;
+	background: url(pictures/lovedone/speechBalloons.jpg) no-repeat fixed center top;
 	height: 1000px;
 	
 }
