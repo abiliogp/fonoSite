@@ -71,70 +71,54 @@ body {
 	text-decoration: none;
 }
 
-#sidebar{
-	height: 60px;
-	width: 30px;
-	position: fixed;
-	right: 10;
-	bottom: 60px;	
-}
 
-#sidebar #socialNetwork{
-	height: 30px;
-	width: 30px;
-	position: absolute;
-	top: 35;
-}
 
 
 #menubarLeft1{
-	position: relative;
+	position: fixed;
 	margin-left: 30% ;	
 	width:25%;
-
+	top: 200px;
 }
 
 #menubarLeft1 #menuLeft11{
-	position: relative;
-	
-	
+	position: absolute;
 }
 
 #menubarLeft2{
-	position: relative;
-	margin-left: 25%;
+	position: fixed;
+	margin-left: 30% ;	
 	width:25%;
-
+	top: 450px;
 }
 
 #menubarLeft2 #menuLeft21{
-	position: relative;
-	
+	position: absolute;
 }
 
 
 
 #menubarRight1{
-	position: relative ;
-	margin-left: 70% ;	
+	position: fixed ;
+	margin-left: 68% ;	
 	width:25%;
-	
+	top: 200px;
 }
 
 #menubarRight1 #menubarRight11{
-	position: relative;
+	position: absolute;
 }
 
 
 #menubarRight2{
-	position: relative ;
-	margin-left: 65% ;	
+	position: fixed ;
+	margin-left: 68% ;	
 	width:25%;
-	
+	top: 450px;
 }
 
 #menubarRight2 #menubarRight21{
-	position: relative;
+	position: absolute;
 }
 
 

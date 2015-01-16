@@ -78,16 +78,12 @@ body {
 	top: 560px;	
 }
 
-#sidebar #socialNetwork{
-	height: 30px;
-	width: 30px;
-	position: absolute;
-	top: 35;
-}
+
 
 #sidebar #up{
 	height: 30px;
 	width: 30px;
+	top: 35px;
 	position: absolute;
 	
 }
