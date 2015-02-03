@@ -117,7 +117,7 @@ body {
 
 #content h4{
 	color: #fff;
-	text-align: center;
+	text-align: right;
 	padding: 10px;
 }
 
@@ -143,26 +143,33 @@ body {
 	height: 800px;
 }
 
-#layer3 {
-	background: url(pictures/childrens/lc2.jpg) repeat center top fixed;
-	height: 1000px;
+
+#layer3{
+	background: url(pictures/childrens/circle.jpg) no-repeat center top fixed;
+	height: 800px;
 }
 
 #layer4 {
-	background: url(pictures/childrens/lc3.jpg) repeat center top fixed;
+	background: url(pictures/childrens/child.jpg) no-repeat center top fixed;
 	height: 620px;
 }
 
 #layer5 {
-	background: url(pictures/childrens/l4.jpg) repeat center top fixed;
+	background: url(pictures/childrens/voice.jpg) no-repeat center top fixed;
 	height: 620px;
 }
+
+#layer6 {
+	background: url(pictures/childrens/boy.jpg) repeat center top fixed;
+	height: 800px;
+}
+
 
 #footer {
 	clear: both;
 	padding: 10px;
-	background-color: #999999;
+	background-color: #000;
 	color: white;
-	text-align: right;
+	text-align: left;
 }
 
