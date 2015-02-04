@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+a {text-decoration: none;}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+   margin-left: 50px;
+  font-family: 'Vollkorn', serif;
+
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 600px;
+  	font-family: 'Vollkorn', serif;
+	 color: #00FF00;
+}
+
+body {
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+	
+	background-color: #FFFFFF;
+	
+}
+
+
+#nav{
+	background-color: #bcce16;
+	position: fixed;
+	top:0;
+	width: 100%;	
+}
+
+
+#nav-wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+
+#nav ul li:hover{
+	background-color: #660000;
+}
+
+#nav ul li a,visited{
+	display: block;
+	padding: 15px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+
+
+#content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#content h1{
+	color: #000;
+	text-align: center;
+	padding: 10px;
+}
+
+#content h2{
+	color: #000;
+	text-align: center;
+	padding: 10px;
+}
+
+#content h3{
+	color: #000;
+	text-align: left;
+	padding: 10px;
+}
+
+#content h4{
+	color: #fff;
+	text-align: right;
+	padding: 10px;
+}
+
+#content p{
+	color: #000;	
+}
+
+#layer1 {
+	background: url(pictures/fono/sB2.jpg) no-repeat left top ;
+	height: 85%;		
+}
+
+#layer12 {
+	margin-top: 60px;
+}
+
+
+
+
+
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+	text-align: center;
+}
+
