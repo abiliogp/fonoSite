@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+a {text-decoration: none;}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+   margin-left: 50px;
+  font-family: 'Vollkorn', serif;
+
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 600px;
+  	font-family: 'Vollkorn', serif;
+	 color: #00FF00;
+}
+
+body {
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+	
+	background-color: #112233;
+	height: 2000px;
+}
+
+
+#nav{
+	background-color: #bcce16;
+	position: fixed;
+	top:0;
+	width: 100%;	
+}
+
+
+#nav-wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+
+#nav ul li:hover{
+	background-color: #660000;
+}
+
+#nav ul li a,visited{
+	display: block;
+	padding: 15px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#sidebar{
+	height: 60px;
+	width: 30px;
+	position: fixed;
+	right: 10;
+	top: 610px;	
+}
+
+
+
+#sidebar #up{
+	height: 30px;
+	width: 30px;
+	top: 35px;
+	position: absolute;
+	
+}
+
+
+
+
+#content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#content h1{
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+#content h2{
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+#content h3{
+	color: #fff;
+	text-align: left;
+	padding: 10px;
+}
+
+#content h4{
+	color: #fff;
+	text-align: right;
+	padding: 10px;
+}
+
+#content p{
+	color: #000;	
+}
+
+#layer1 {
+	margin-top: 100px;	
+}
+
+#layer12 {
+	margin-top: 55px;
+	background: url(pictures/old/gramofone.jpg) no-repeat right top fixed;
+	height: 460px;	
+	
+}
+
+
+
+#layer2 {
+	background: url(pictures/old/casal.jpg) no-repeat left top ;
+	height: 466px;
+}
+
+#layer21 {
+	height: 466px;
+}
+
+
+#layer3 {
+	height: 466px;	
+}
+
+#layer31 {
+	background: url(pictures/old/telefone.jpg) no-repeat right top;
+	height: 466px;
+}
+
+#layer4 {
+	height: 467px;
+}
+
+#layer41 {
+	background: url(pictures/old/praia.jpg) no-repeat left top ;
+	height: 467px;
+}
+
+#layer5 {
+	height: 525px;
+}
+
+#layer51 {
+	background: url(pictures/old/relogio.jpg) no-repeat right top;
+	height: 525px;
+}
+
+#layer6 {
+	background: url(pictures/old/flores.jpg) no-repeat center top fixed;
+	height: 467px;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+	text-align: center;
+}
+
