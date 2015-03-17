@@ -127,44 +127,31 @@ body {
 
 
 #layer1 {
-	background: url(pictures/adult/prof.jpg) no-repeat left top fixed;
-	height: 420px;	
+	background: url(pictures/adult/prof.jpg) no-repeat left top;
+	height: 467px;	
+	
 }
 
 
 #layer12 {
 	margin-top: 50px;
-	height: 420px;	
+	height: 467px;	
 }
 
 
 #layer2 {
-	height: 600px;
-}
-
-#layer21 {
-	background: url(pictures/adult/casal.jpg) no-repeat right top fixed;
-	height: 600px;
+	background: url(pictures/childrens/girl.jpg) no-repeat center top fixed;
+	height: 800px;
 }
 
 
 #layer3{
-	background: url(pictures/adult/caixas.jpg) no-repeat left top ;
-	height: 544px;
+	background: url(pictures/childrens/circle.jpg) no-repeat center top fixed;
+	height: 800px;
 }
-
-
-#layer31{
-	height: 544px;
-}
-
 
 #layer4 {
 	background: url(pictures/childrens/child.jpg) no-repeat center top fixed;
-	height: 620px;
-}
-
-#layer41 {
 	height: 620px;
 }
 

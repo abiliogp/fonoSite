@@ -10,9 +10,14 @@ h1 {
 }
 
 h2 {
-   margin-left: 50px;
   font-family: 'Vollkorn', serif;
+	text-align: center;
+}
 
+h3 {
+	text-align: justify;
+	margin-left: 15px;
+	margin-right: 15px;	
 }
 
 p {
@@ -30,7 +35,8 @@ body {
 	font-size: 16px;
 	
 	background-color: #112233;
-	height: 2000px;
+	height: auto;
+	width: auto;
 }
 
 
@@ -43,7 +49,7 @@ body {
 
 
 #nav-wrapper{
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -71,8 +77,8 @@ body {
 }
 
 #sidebar{
-	height: 60px;
-	width: 30px;
+	height: 8.5%;
+	width: 2.5%;
 	position: fixed;
 	right: 10;
 	bottom: 10px;	
@@ -125,60 +131,69 @@ body {
 	color: #000;	
 }
 
+/*layer1*/
 #layer1 {
 	margin-top: 100px;	
+	height: 50%;	
 }
 
 #layer12 {
 	margin-top: 55px;
 	background: url(pictures/old/gramofone.jpg) no-repeat right top fixed;
-	height: 433px;	
-	
+	background-size: 50%;
+	height: 50%;
+		
 }
 
 
-
+/*layer2*/
 #layer2 {
-	background: url(pictures/old/casal.jpg) no-repeat left top ;
-	height: 433px;
+	background: url(pictures/old/casal.jpg) no-repeat left top;
+	background-size: 50%;
+	height: 50%;
 }
 
 #layer21 {
-	height: 433px;
+	height: 50%;
 }
 
 
+/*layer3*/
 #layer3 {
-	height: 433px;	
+	height: 50%;
 }
 
 #layer31 {
 	background: url(pictures/old/telefone.jpg) no-repeat right top;
-	height: 433px;
+	background-size: 50%;
+	height: 50%;
 }
 
+
+/*layer4*/
 #layer4 {
-	height: 434px;
+	height: 50%;
 }
 
 #layer41 {
 	background: url(pictures/old/praia.jpg) no-repeat left top ;
-	height: 434px;
+	background-size: 50%;
+	height: 50%;
 }
 
+
+/*layer5*/
 #layer5 {
-	height: 525px;
+	height: 50%;
 }
 
 #layer51 {
 	background: url(pictures/old/relogio.jpg) no-repeat right top;
-	height: 525px;
+	background-size: 50%;
+	height: 50%;
 }
 
-#layer6 {
-	background: url(pictures/old/flores.jpg) no-repeat center top fixed;
-	height: 467px;
-}
+
 
 #footer {
 	clear: both;
