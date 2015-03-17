@@ -30,7 +30,8 @@ body {
 	font-size: 16px;
 	
 	background-color: #c32c4a;
-	height: 2000px;
+	height: auto;
+	width: auto;
 }
 
 
@@ -43,7 +44,7 @@ body {
 
 
 #nav-wrapper{
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -71,13 +72,12 @@ body {
 }
 
 #sidebar{
-	height: 60px;
-	width: 30px;
+	height: 8.5%;
+	width: 2%;
 	position: fixed;
 	right: 10;
-	bottom:  10px;	
+	bottom: 10px;	
 }
-
 
 
 #sidebar #up{
@@ -127,40 +127,42 @@ body {
 
 #layer1 {
 	margin-top: 100px;	
+	height: 50%;
 }
 
 #layer12 {
 	margin-top: 55px;
 	background: url(pictures/childrens/oQueVouFzrDaVida3.jpg) no-repeat right top;
-	height: 460px;	
+	background-size: 50%;
+	height: 50%;	
 	
 }
 
 
 #layer2 {
 	background: url(pictures/childrens/girl.jpg) no-repeat center top fixed;
-	height: 800px;
+	height: 100%;
 }
 
 
 #layer3{
 	background: url(pictures/childrens/circle.jpg) no-repeat center top fixed;
-	height: 800px;
+	height: 100%;
 }
 
 #layer4 {
 	background: url(pictures/childrens/child.jpg) no-repeat center top fixed;
-	height: 620px;
+	height: 100%;
 }
 
 #layer5 {
 	background: url(pictures/childrens/voice.jpg) no-repeat center top fixed;
-	height: 620px;
+	height: 100%;
 }
 
 #layer6 {
 	background: url(pictures/childrens/boy.jpg) repeat center top fixed;
-	height: 800px;
+	height: 100%;
 }
 
 

@@ -28,9 +28,10 @@ body {
 	margin: 0;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px;
-	
+
 	background-color: #262826;
-	height: 2000px;
+	height: auto;
+	width: auto;
 }
 
 
@@ -43,7 +44,7 @@ body {
 
 
 #nav-wrapper{
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -71,14 +72,12 @@ body {
 }
 
 #sidebar{
-	height: 60px;
-	width: 30px;
+	height: 8.5%;
+	width: 2%;
 	position: fixed;
 	right: 10;
-	bottom:  10px;	
+	bottom: 10px;	
 }
-
-
 
 #sidebar #up{
 	height: 30px;
@@ -128,54 +127,66 @@ body {
 
 #layer1 {
 	background: url(pictures/adult/prof.jpg) no-repeat left top fixed;
-	height: 420px;	
+	background-size: 50%;
+	height: 50%;	
+
 }
 
 
 #layer12 {
 	margin-top: 50px;
-	height: 420px;	
+	background-size: 50%;
+	height: 50%;	
 }
 
 
 #layer2 {
-	height: 600px;
+	height: 50%;
 }
 
 #layer21 {
 	background: url(pictures/adult/casal.jpg) no-repeat right top fixed;
-	height: 600px;
+	background-size: 50%;
+	height: 50%;	
 }
 
 
 #layer3{
 	background: url(pictures/adult/caixas.jpg) no-repeat left top ;
-	height: 544px;
+	background-size: 50%;
+	height: 50%;	
 }
 
 
 #layer31{
-	height: 544px;
+	height: 50%;	
 }
 
 
 #layer4 {
-	background: url(pictures/childrens/child.jpg) no-repeat center top fixed;
-	height: 620px;
+	height: 50%;	
 }
 
 #layer41 {
-	height: 620px;
+	background: url(pictures/childrens/child.jpg) no-repeat right top ;
+	background-size: 50%;
+	height: 50%;	
 }
+
+
+
+
+
 
 #layer5 {
-	background: url(pictures/childrens/voice.jpg) no-repeat center top fixed;
-	height: 620px;
+	background: url(pictures/childrens/l1.jpg) no-repeat left top;
+	background-size: 50%;
+	height: 50%;	
 }
 
-#layer6 {
-	background: url(pictures/childrens/boy.jpg) repeat center top fixed;
-	height: 800px;
+
+#layer51 {
+	height: 50%;	
 }
 
 
