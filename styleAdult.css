@@ -20,6 +20,7 @@ p {
 	margin-right: 600px;
   	font-family: 'Vollkorn', serif;
 	 color: #00FF00;
+	
 }
 
 body {
@@ -28,6 +29,7 @@ body {
 	margin: 0;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px;
+	text-shadow: 1px 1px 1px black; 
 
 	background-color: #262826;
 	height: auto;
@@ -72,8 +74,8 @@ body {
 }
 
 #sidebar{
-	height: 8.5%;
-	width: 2%;
+	height: 60px;
+	width: 30px;
 	position: fixed;
 	right: 10;
 	bottom: 10px;	
@@ -126,16 +128,15 @@ body {
 
 
 #layer1 {
-	background: url(pictures/adult/prof.jpg) no-repeat left top fixed;
-	background-size: 50%;
-	height: 50%;	
+	background: url(pictures/adult/prof.jpg) no-repeat left top fixed ;
+	height: 50%;
+	background-size: 50%;	
 
 }
 
 
 #layer12 {
 	margin-top: 50px;
-	background-size: 50%;
 	height: 50%;	
 }
 
@@ -152,9 +153,10 @@ body {
 
 
 #layer3{
-	background: url(pictures/adult/caixas.jpg) no-repeat left top ;
+	background: url(pictures/adult/celular.jpg) no-repeat left top ;
 	background-size: 50%;
-	height: 50%;	
+	height: 50%;
+	width: 100%;	
 }
 
 
@@ -168,7 +170,7 @@ body {
 }
 
 #layer41 {
-	background: url(pictures/childrens/child.jpg) no-repeat right top ;
+	background: url(pictures/adult/caixas.jpg)  no-repeat right top  ;
 	background-size: 50%;
 	height: 50%;	
 }
@@ -179,14 +181,21 @@ body {
 
 
 #layer5 {
-	background: url(pictures/childrens/l1.jpg) no-repeat left top;
-	background-size: 50%;
+
 	height: 50%;	
 }
 
 
 #layer51 {
 	height: 50%;	
+	background: url(pictures/adult/disco.jpg) no-repeat left top;
+	background-size: 50%;
+}
+
+#layer6 {
+	height: 80%;	
+	background: url(pictures/adult/telefones.jpg) no-repeat left top;
+	background-size: 100%;
 }
 
 

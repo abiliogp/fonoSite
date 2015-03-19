@@ -33,7 +33,7 @@ body {
 	margin: 0;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px;
-	
+	text-shadow: 1px 1px 1px black;
 	background-color: #112233;
 	height: auto;
 	width: auto;
@@ -77,8 +77,8 @@ body {
 }
 
 #sidebar{
-	height: 8.5%;
-	width: 2%;
+	height: 60px;
+	width: 30px;
 	position: fixed;
 	right: 10;
 	bottom: 10px;	
