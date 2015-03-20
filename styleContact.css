@@ -3,7 +3,8 @@
 	padding: 0;	
 }
 
-a {text-decoration: none;}
+a {text-decoration: none;
+}
 
 h1 {
     font-family: 'Vollkorn', serif;
@@ -28,12 +29,13 @@ body {
 	margin: 0;
 	font-family: 'Vollkorn', serif;
 	font-size: 16px;
-	
-	background-color: #FFFFFF;
+
+
 	height: auto;
 	width: auto;
-}
 
+	background-color: #FFF;
+}
 
 #nav{
 	background-color: #bcce16;
@@ -80,6 +82,8 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 #content h1{
 	color: #000;
@@ -131,7 +135,7 @@ body {
 
 
 #layer3{
-	margin-top: 100px;
+	margin-top: 150px;
 
 }
 
