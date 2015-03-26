@@ -146,32 +146,24 @@ body {
 	background: url(pictures/prof/fones.jpg) no-repeat left top;
 	background-size: 100%;
 	height: 50%;
-	width: 50%;
-	float: left;
 }
 
 #layer4 {
 	background: url(pictures/prof/piano.jpg) no-repeat right top;
 	background-size: 100%;
 	height: 50%;
-	width: 50%;
-	float: right;
 }
 
 #layer5 {
 	background: url(pictures/prof/cantores.jpg) no-repeat left top;
 	background-size: 100%;
 	height: 50%;
-	width: 50%;
-	float: left;
 }
 
 #layer6 {
 	background: url(pictures/prof/microphoneShadows.jpg) no-repeat right top;
 	background-size: 100%;
 	height: 50%;
-	width: 50%;
-	float: right;
 }
 
 
