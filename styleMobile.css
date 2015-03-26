@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+a {text-decoration: none;}
+
+
+h1 {
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+   margin-left: 50px;
+   font-family: 'Vollkorn', serif;
+}
+
+h3 {
+   margin-left: 50px;
+  font-family: 'Vollkorn', serif;
+	color: 000;
+}
+
+h4 {
+  	font-family: 'Vollkorn', serif;
+	color: 000;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Vollkorn', serif;
+	
+	font-size: 16px;
+}
+
+
+#nav{
+	background-color: #bcce16;
+	/*6eAF3c*/
+	opacity: .95;
+	position: fixed;
+	bottom: 0;
+	width: 100%;	
+}
+
+
+#nav-wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+
+#nav ul li:hover{
+	background-color: #660000;
+}
+
+#nav ul li a,visited{
+	display: block;
+	padding: 15px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+
+#menubarLeft1{
+	position: fixed;
+	margin-left: 10% ;	
+	width:15%;
+	top: 30%;
+}
+
+#menubarLeft1 #menuLeft11{
+	position: absolute;
+}
+
+#menubarLeft2{
+	position: fixed;
+	margin-left: 10% ;	
+	width:15%;
+	top: 65%;
+}
+
+#menubarLeft2 #menuLeft21{
+	position: absolute;
+}
+
+
+
+#menubarRight1{
+	position: fixed ;
+	margin-left: 65% ;	
+	width:15%;
+	top: 30%;
+}
+
+#menubarRight1 #menubarRight11{
+	position: absolute;
+}
+
+
+#menubarRight2{
+	position: fixed ;
+	margin-left: 65% ;	
+	width:15%;
+	top: 65%;
+}
+
+#menubarRight2 #menubarRight21{
+	position: absolute;
+}
+
+
+
+
+
+
+#layer1 {	
+	margin-top: 5%;
+	background: url(pictures/banner3.jpg) no-repeat center top;
+	background-size: 80%;
+	height: 30%;
+}
+
+
+#layer2 {
+	
+}
+
