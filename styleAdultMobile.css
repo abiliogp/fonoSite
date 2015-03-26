@@ -3,6 +3,9 @@
 	padding: 0;	
 }
 
+
+
+
 a {text-decoration: none;}
 
 h1 {
@@ -20,7 +23,6 @@ p {
 	margin-right: 600px;
   	font-family: 'Vollkorn', serif;
 	 color: #00FF00;
-	
 }
 
 body {
@@ -28,9 +30,8 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Vollkorn', serif;
-	font-size: 16px;
-	text-shadow: 1px 1px 1px black; 
-
+	font-size: 12px;
+	text-shadow: 1px 1px 1px black;
 	background-color: #262826;
 	height: auto;
 	width: auto;
@@ -46,8 +47,9 @@ body {
 
 
 #nav-wrapper{
-	width: 70%;
-	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	margin: auto;
 	text-align: left;
 }
 
@@ -58,7 +60,7 @@ body {
 }
 
 #nav ul li{
-	display: inline-block;
+	display: inline;
 }
 
 
@@ -67,11 +69,12 @@ body {
 }
 
 #nav ul li a,visited{
-	display: block;
-	padding: 15px;
+	padding: 0 10px;
 	color: #FFF;
 	text-decoration: none;
 }
+
+
 
 #sidebar{
 	height: 60px;
@@ -80,6 +83,7 @@ body {
 	right: 10;
 	bottom: 10px;	
 }
+
 
 #sidebar #up{
 	height: 30px;
@@ -127,31 +131,29 @@ body {
 }
 
 
+
 #layer1 {
-	margin-top: 40px;
-	background: url(pictures/adult/tel1.jpg) no-repeat center;
+	margin-top: 10%;
+	background: url(pictures/adult/tel1.jpg) no-repeat top center;
 	background-size: 100%;		
-	height: 60%;
+	height: 30%;
 }
 
 
 #layer12 {
-	margin-top: 40px;
 	height: 20%;	
 }
 
 
 #layer2 {
 	height: 50%;
-	width: 50%; 
-	float: left;
 }
 
 #layer21 {
 	background: url(pictures/adult/casal.jpg) no-repeat right top ;
 	background-size: 50%;
 	height: 65%;	
-	
+	width:100%;
 }
 
 
@@ -159,21 +161,17 @@ body {
 	background: url(pictures/adult/celular.jpg) no-repeat left top ;
 	background-size: 50%;
 	height: 50%;
-	
+	width: 100%;	
 }
 
 
 #layer31{
-	height: 50%;
-	width: 50%; 
-	float: left;	
+	height: 50%;	
 }
 
 
 #layer4 {
-	height: 50%;
-	width: 50%; 
-	float: left;	
+	height: 50%;	
 }
 
 #layer41 {
@@ -189,9 +187,7 @@ body {
 
 #layer5 {
 
-	height: 50%;
-	width: 50%; 
-	float: left;	
+	height: 50%;	
 }
 
 
