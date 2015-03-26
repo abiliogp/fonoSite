@@ -143,7 +143,7 @@ body {
 	margin-top: 10%;
 	background: url(pictures/adult/tel1.jpg) no-repeat top center;
 	background-size: 100%;		
-	height: 30%;
+	height: 20%;
 }
 
 
@@ -153,37 +153,37 @@ body {
 
 
 #layer2 {
-	height: 50%;
+	height: 10%;
 }
 
 #layer21 {
-	background: url(pictures/adult/casal.jpg) no-repeat right top ;
-	background-size: 50%;
+	background: url(pictures/adult/casal.jpg) no-repeat center bottom ;
+	background-size: 100%;
 	height: 65%;	
 	width:100%;
 }
 
 
 #layer3{
-	background: url(pictures/adult/celular.jpg) no-repeat left top ;
-	background-size: 50%;
-	height: 50%;
+	background: url(pictures/adult/celular.jpg) no-repeat center bottom;
+	background-size: 100%;
+	height: 80%;
 	width: 100%;	
 }
 
 
 #layer31{
-	height: 50%;	
+	height: 1%;	
 }
 
 
 #layer4 {
-	height: 50%;	
+	height: 40%;	
 }
 
 #layer41 {
-	background: url(pictures/adult/caixas.jpg)  no-repeat right top  ;
-	background-size: 50%;
+	background: url(pictures/adult/caixas.jpg)  no-repeat center bottom  ;
+	background-size: 100%;
 	height: 50%;	
 }
 
@@ -194,20 +194,20 @@ body {
 
 #layer5 {
 
-	height: 50%;	
+	height: 1%;	
 }
 
 
-#layer51 {
-	height: 50%;	
-	background: url(pictures/adult/disco.jpg) no-repeat left top;
-	background-size: 50%;
+#layer51 {	
+	background: url(pictures/adult/disco.jpg) no-repeat center bottom  ;
+	background-size: 100%;	
+	height: 80%;
 }
 
 #layer6 {
-	height: 80%;	
-	background: url(pictures/adult/telefones.jpg) no-repeat left top;
+	background: url(pictures/adult/telefones.jpg) no-repeat center bottom  ;
 	background-size: 100%;
+	height: 25%;
 }
 
 
