@@ -134,7 +134,9 @@ body {
 /*layer1*/
 #layer1 {
 	margin-top: 100px;	
-	height: 50%;	
+	height: 30%;	
+    width: 50%; 
+	float:left;
 }
 
 #layer12 {
@@ -150,47 +152,59 @@ body {
 #layer2 {
 	background: url(pictures/old/casal.jpg) no-repeat left top;
 	background-size: 50%;
-	height: 50%;
+	height: 60%;
 }
 
 #layer21 {
-	height: 50%;
+	height: 60%;	
+    width: 52%; 
+	float:left;
 }
 
 
 /*layer3*/
 #layer3 {
-	height: 50%;
+	height: 60%;
+	width: 50%;  
+	float:left;
 }
 
 #layer31 {
 	background: url(pictures/old/telefone.jpg) no-repeat right top;
 	background-size: 50%;
-	height: 50%;
+	height: 60%;
 }
 
 
 /*layer4*/
-#layer4 {
-	height: 50%;
+#layer41 {
+	background: url(pictures/old/praia.jpg) no-repeat left top;
+	background-size: 50%;
+	height: 60%;
+	
 }
 
-#layer41 {
-	background: url(pictures/old/praia.jpg) no-repeat left top ;
-	background-size: 50%;
-	height: 50%;
+
+#layer4 {
+	width: 50%; 
+	float: right;
 }
+
+
+
 
 
 /*layer5*/
 #layer5 {
-	height: 50%;
+	height: 70%;
+	width: 50%;
+	float:left;
 }
 
 #layer51 {
 	background: url(pictures/old/relogio.jpg) no-repeat right top;
 	background-size: 50%;
-	height: 50%;
+	height: 70%;
 }
 
 

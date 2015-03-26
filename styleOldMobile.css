@@ -3,6 +3,9 @@
 	padding: 0;	
 }
 
+
+
+
 a {text-decoration: none;}
 
 h1 {
@@ -27,13 +30,12 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Vollkorn', serif;
-	font-size: 16px;
+	font-size: 12px;
 	text-shadow: 1px 1px 1px black;
-	background-color: #c32c4a;
+	background-color: #112233;
 	height: auto;
 	width: auto;
 }
-
 
 
 #nav{
@@ -45,8 +47,9 @@ body {
 
 
 #nav-wrapper{
-	width: 70%;
-	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	margin: auto;
 	text-align: left;
 }
 
@@ -57,7 +60,7 @@ body {
 }
 
 #nav ul li{
-	display: inline-block;
+	display: inline;
 }
 
 
@@ -66,11 +69,12 @@ body {
 }
 
 #nav ul li a,visited{
-	display: block;
-	padding: 15px;
+	padding: 0 10px;
 	color: #FFF;
 	text-decoration: none;
 }
+
+
 
 #sidebar{
 	height: 60px;
@@ -126,52 +130,67 @@ body {
 	color: #000;	
 }
 
-#layer1 {
-	margin-top: 100px;	
-	width: 50%; 
-	height: 30%; 
-	float:left;
-}
 
+/*layer1*/
+#layer1 {
+	margin-top: 50px;	
+	height: 10%;	
+}
 
 #layer12 {
-	margin-top: 55px;
-	background: url(pictures/childrens/oQueVouFzrDaVida3.jpg) no-repeat right top;
-	background-size: 50%;
-	height: 50%;	
+	background: url(pictures/old/gramofone.jpg) no-repeat  center bottom;
+	background-size: 100%;
+	height: 50%;
+		
 }
 
 
+/*layer2*/
 #layer2 {
-	background: url(pictures/childrens/girl.jpg) no-repeat center top fixed;
+	background: url(pictures/old/casal.jpg) no-repeat  center bottom;
 	background-size: 100%;
-	height: 100%;
+	height: 70%;
 }
 
 
-#layer3{
-	background: url(pictures/childrens/circle.jpg) no-repeat center top fixed;
-	background-size: 100%;
-	height: 100%;
+
+
+/*layer3*/
+#layer3 {
+	height: 20%;
 }
+
+#layer31 {
+	background: url(pictures/old/telefone.jpg) no-repeat  center bottom;
+	background-size: 100%;
+	height: 50%;
+}
+
+
+/*layer4*/
 
 #layer4 {
-	background: url(pictures/childrens/child.jpg) no-repeat center top fixed;
-	background-size: 100%;
-	height: 100%;
+	
 }
 
-#layer5 {
-	background: url(pictures/childrens/voice.jpg) no-repeat center top fixed;
+#layer41 {
+	background: url(pictures/old/praia.jpg) no-repeat center bottom;
 	background-size: 100%;
-	height: 100%;
+	height: 40%;
+	
 }
 
-#layer6 {
-	background: url(pictures/childrens/boy.jpg) no-repeat center top fixed;
+
+
+/*layer5*/
+
+
+#layer51 {
+	background: url(pictures/old/relogio.jpg) no-repeat  center bottom;
 	background-size: 100%;
-	height: 100%;
+	height: 40%;
 }
+
 
 
 #footer {
