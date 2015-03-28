@@ -48,7 +48,7 @@ body {
 
 #nav-wrapper{
 	position: relative;
-	width: 90%;
+	width: 95%;
 	margin: auto;
 	text-align: left;
 }
@@ -134,7 +134,7 @@ body {
 /*layer1*/
 #layer1 {
 	margin-top: 50px;	
-	height: 10%;	
+	height: 25%;	
 }
 
 #layer12 {
@@ -147,8 +147,8 @@ body {
 
 /*layer2*/
 #layer2 {
-	background: url(pictures/old/casal.jpg) no-repeat  center bottom;
-	background-size: 100%;
+	/*background: url(pictures/old/casal.jpg) no-repeat  center bottom;
+	background-size: 100%;*/
 	height: 70%;
 }
 
@@ -161,8 +161,8 @@ body {
 }
 
 #layer31 {
-	background: url(pictures/old/telefone.jpg) no-repeat  center bottom;
-	background-size: 100%;
+	/*background: url(pictures/old/telefone.jpg) no-repeat  center bottom;
+	background-size: 100%;*/
 	height: 50%;
 }
 
@@ -174,8 +174,8 @@ body {
 }
 
 #layer41 {
-	background: url(pictures/old/praia.jpg) no-repeat center bottom;
-	background-size: 100%;
+	/*background: url(pictures/old/praia.jpg) no-repeat center bottom;
+	background-size: 100%;*/
 	height: 40%;
 	
 }
@@ -188,7 +188,7 @@ body {
 #layer51 {
 	background: url(pictures/old/relogio.jpg) no-repeat  center bottom;
 	background-size: 100%;
-	height: 40%;
+	height: 70%;
 }
 
 

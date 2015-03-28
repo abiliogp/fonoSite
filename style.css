@@ -129,8 +129,9 @@ body {
 
 
 #layer1 {	
+	margin-top: 1%;
 	background: url(pictures/banner3.jpg) no-repeat center top;
-	height: 150px;
+	height: 20%;
 }
 
 
