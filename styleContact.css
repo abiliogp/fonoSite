@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-   margin-left: 50px;
+   margin-left: 100px;
   font-family: 'Vollkorn', serif;
 
 }
@@ -34,7 +34,9 @@ body {
 	height: auto;
 	width: auto;
 
-	background-color: #FFF;
+	background-image: url(pictures/texture/school.png);
+  background-position: center top;
+  background-size: 10% auto;
 }
 
 #nav{
@@ -86,35 +88,35 @@ body {
 
 
 #content h1{
-	color: #000;
+	color: #fff;
 	text-align: left;
-	padding: 10px;
-	text-shadow: 1px 1px 1px white;
+	padding: 15px;
+	text-shadow: 1px 1px 1px black;
 }
 
 #content h2{
-	color: #000;
+	color: #fff;
 	text-align: left;
 	padding: 10px;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px black;
 }
 
 #content h3{
-	color: #000;
+	color: #fff;
 	text-align: left;
-	margin-left: 80px;
+	margin-left: 150px;
 	padding: 10px;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px black;
 }
 
 #content h4{
-	color: #000;
+	color: #fff;
 	text-align: right;
 	padding: 10px;
 }
 
 #content p{
-	color: #000;	
+	color: #fff;	
 }
 
 
@@ -123,21 +125,16 @@ body {
 
 
 #layer1{
-	/*background: url(pictures/speechBalloons2.jpg) no-repeat left top;
-	background-size: 100%;
-	*/
-	margin-top: 100px;
-	margin-left: 10% ;
-	height: 79.1%;
+	margin-top: 120px;
+	float: left;
+	height: 76%;
 }
 
 
 
 
-#layer3{
-	margin-top: 150px;
 
-}
+
 
 #footer {
 	clear: both;
