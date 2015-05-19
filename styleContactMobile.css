@@ -3,18 +3,22 @@
 	padding: 0;
 }
 
-a {text-decoration: none;
-}
+
+
+
+a {text-decoration: none;}
 
 h1 {
     font-family: 'Vollkorn', serif;
 }
 
 h2 {
-   margin-left: 100px;
+   margin-left: 50px;
   font-family: 'Vollkorn', serif;
 
 }
+
+
 
 p {
 	margin-left: 50px;
@@ -28,7 +32,8 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Vollkorn', serif;
-	font-size: 16px;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px black;
 
 
 	height: auto;
@@ -39,6 +44,7 @@ body {
   background-size: 10% auto;
 }
 
+
 #nav{
 	background-color: #bcce16;
 	position: fixed;
@@ -48,8 +54,9 @@ body {
 
 
 #nav-wrapper{
-	width: 960px;
-	margin: 0 auto;
+	position: relative;
+	width: 95%;
+	margin: auto;
 	text-align: left;
 }
 
@@ -60,7 +67,7 @@ body {
 }
 
 #nav ul li{
-	display: inline-block;
+	display: inline;
 }
 
 
@@ -69,12 +76,29 @@ body {
 }
 
 #nav ul li a,visited{
-	display: block;
-	padding: 15px;
+	padding: 0 10px;
 	color: #FFF;
 	text-decoration: none;
 }
 
+
+
+#sidebar{
+	height: 60px;
+	width: 30px;
+	position: fixed;
+	right: 10;
+	bottom: 10px;
+}
+
+
+#sidebar #up{
+	height: 30px;
+	width: 30px;
+	top: 35px;
+	position: absolute;
+
+}
 
 
 
@@ -85,28 +109,22 @@ body {
 	padding: 0;
 }
 
-
-
 #content h1{
 	color: #fff;
-	text-align: left;
-	padding: 15px;
-	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	padding: 10px;
 }
 
 #content h2{
 	color: #fff;
-	text-align: left;
+	text-align: center;
 	padding: 10px;
-	text-shadow: 1px 1px 1px black;
 }
 
 #content h3{
 	color: #fff;
 	text-align: left;
-	margin-left: 150px;
 	padding: 10px;
-	text-shadow: 1px 1px 1px black;
 }
 
 #content h4{
@@ -116,7 +134,7 @@ body {
 }
 
 #content p{
-	color: #fff;
+	color: #000;
 }
 
 
@@ -125,17 +143,19 @@ body {
 
 
 #layer1{
-	margin-top: 120px;
-	float: left;
+	margin-top: 30px;
+	margin-left:15px;
+	float: center;
 	height: 76%;
-	widht: 50%;
 }
 
 #layer2{
-	margin-top: 150px;
-	float: right;
-	widht: 50%;
+	float: center;
+	height: 50%;
+	width: 50%;
 }
+
+
 
 
 
